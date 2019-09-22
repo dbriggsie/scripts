@@ -7,10 +7,6 @@ git clone https://github.com/enigmampc/discovery-docker-network.git
 sleep 2
 
 echo "Downloading scripts to configure your Secret Node."
-mkdir scripts
-sleep 1
-cd scripts
-sleep 1
 wget -O install-docker.sh https://raw.githubusercontent.com/secretnodes/scripts/altmethod/install-docker.sh
 sleep 1
 wget -O install-sgx.sh https://raw.githubusercontent.com/secretnodes/scripts/altmethod/install-sgx.sh
@@ -40,7 +36,5 @@ sleep 10
 echo "Running install-sgx.sh script."
 sudo bash install-sgx.sh
 sleep 10
-
-cd
 
 echo "<3 from https://secretnodes.org"
