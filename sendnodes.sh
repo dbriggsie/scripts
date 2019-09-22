@@ -27,14 +27,15 @@ sudo chmod u+x ~/upgrade.sh
 
 echo "Running upgrade.sh script."
 sudo bash upgrade.sh
-sleep 10
+sleep 5
+echo "The script is not finished yet. Next we will install docker, please wait."
 
 echo "Running install-docker.sh script."
 sudo bash install-docker.sh
-sleep 10
+sleep 5
+echo "The script is not finished yet. Next we will install sgx, please wait."
 
 echo "Running install-sgx.sh script."
 sudo bash install-sgx.sh
-sleep 10
-
+sleep 5
 echo "<3 from https://secretnodes.org"
