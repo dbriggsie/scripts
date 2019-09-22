@@ -17,13 +17,13 @@ wget -O upgrade.sh https://raw.githubusercontent.com/secretnodes/scripts/altmeth
 sleep 1
 
 echo "Change permissions for install sgx, install docker, start, & upgrade scripts."
-chmod u+x ~/install-sgx.sh
+sudo chmod u+x ~/install-sgx.sh
 sleep 1
-chmod u+x ~/install-docker.sh
+sudo chmod u+x ~/install-docker.sh
 sleep 1
-chmod u+x ~/start.sh
+sudo chmod u+x ~/start.sh
 sleep 1
-chmod u+x ~/upgrade.sh
+sudo chmod u+x ~/upgrade.sh
 
 echo "Running upgrade.sh script."
 sudo bash upgrade.sh
