@@ -3,7 +3,7 @@
 #Version 0.1 | Sep 22, 2019
 
 echo "===> Running step 1"
-sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 echo "===> Running step 2"
 sudo chmod +x /usr/local/bin/docker-compose
